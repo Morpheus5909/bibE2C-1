@@ -1,0 +1,60 @@
+/*Réglages généraux*/
+@font-face {
+    font-family: "police-titre";
+    src: url("./exmouth_.ttf");
+}
+
+@font-face {
+    font-family: "base";
+    src: url("./CaviarDreams.ttf");
+}
+
+* {
+    /*Supprimer toutes les marges par défauts pour ne pas être embété*/
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+
+    /*palette de couleur*/
+    --couleur-claire:#E6D6E8 ;
+    --couleur-midclaire: #D1B3E0;
+    --couleur-midfonce: #A76CBA;
+    --couleur-fonce:#5B3E7D ;
+
+}
+
+body {
+    font-family: "base";
+    background-color: var(--couleur-claire);
+    color:var(--couleur-fonce);
+}
+
+/*réglage de la partie nav */
+#logo {
+    width : 100px;
+}
+/*réglage de la partie header */
+header {
+    background:radial-gradient(circle at 25%, var(--couleur-midfonce),var(--couleur-fonce));
+    color:var(--couleur-claire);
+    height: 25vh;
+    padding : 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+
+h1 {
+    font-family: "police-titre";
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+/*réglage de la partie main */
+
+/*réglage de la partie aside */
