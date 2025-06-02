@@ -21,6 +21,12 @@
     --couleur-midfonce: #A76CBA;
     --couleur-fonce:#5B3E7D ;
 
+    /*palette alternative
+    --couleur-claire:#dcc4a2 ;
+    --couleur-midclaire: #b4442a;
+    --couleur-midfonce: #513533;
+    --couleur-fonce:#2f1b27 ;*/
+
 }
 
 body {
