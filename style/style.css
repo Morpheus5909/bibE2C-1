@@ -15,17 +15,18 @@
     padding : 0;
     box-sizing: border-box;
 
-    /*palette de couleur
+    /*palette de couleur*/
     --couleur-claire:#E6D6E8 ;
     --couleur-midclaire: #D1B3E0;
     --couleur-midfonce: #A76CBA;
-    --couleur-fonce:#5B3E7D ;*/
+    --couleur-fonce:#5B3E7D ;
 
-    /*palette alternative*/
+    /*palette alternative
     --couleur-claire:#dcc4a2 ;
     --couleur-midclaire: #b4442a;
     --couleur-midfonce: #513533;
     --couleur-fonce:#2f1b27 ;
+    */
 
 }
 
@@ -60,6 +61,11 @@ h1 {
 
 h3 {
     font-size: 1.5rem;
+}
+
+
+.nav-button {
+    font-size: 3rem;
 }
 /*réglage de la partie main */
 
