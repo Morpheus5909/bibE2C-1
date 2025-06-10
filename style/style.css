@@ -100,12 +100,16 @@ nav {
     text-decoration: none;
     display: block;
 
-    background-color: var(--couleur-fonce);
-    color: var(--couleur-claire);
-    padding: 5px;
 
-    width : 15%;
-    margin : 5px;
+    font-size: 3rem;
+  text-decoration: none;
+  display: block;
+background-color: var(--couleur-fonce);
+color: var(--couleur-claire);
+padding: 5px;
+width: 20%;
+margin: 5px;
+
 
     text-align: center;
     border-radius: 5px;
