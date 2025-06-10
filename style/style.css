@@ -38,7 +38,8 @@ body {
 
 /*réglage de la partie nav */
 #logo {
-    width : 100px;
+    width : 7%;
+    display: block;
 }
 /*réglage de la partie header */
 header {
@@ -63,10 +64,87 @@ h3 {
     font-size: 1.5rem;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: solid var(--couleur-fonce) 1px;
+}
+
+#nav-bar {
+    width : 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+}
+
 
 .nav-button {
-    font-size: 3rem;
-}
-/*réglage de la partie main */
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: block;
 
-/*réglage de la partie aside */
+    background-color: var(--couleur-fonce);
+    color: var(--couleur-claire);
+    padding: 5px;
+
+    width : 15%;
+    margin : 5px;
+
+    text-align: center;
+    border-radius: 5px;
+    border: solid var(--couleur-claire) 2px;
+
+}
+
+.nav-button:hover {
+    background-color: var(--couleur-midclaire);
+    color: var(--couleur-midfonce);
+    border: solid var(--couleur-midfonce) 2px;
+}
+
+/*réglage de la partie main et aside*/
+
+#rangement {
+    width : 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+}
+
+main {
+    width: 75%;
+}
+
+article {
+    box-shadow: var(--couleur-fonce) 2px 2px 5px 0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+aside {
+    width : 20%;
+}
+
+/*image et video */
+
+#video-e2c {
+    max-width: 100%;    
+}
+
+#lecture {
+    max-width: 100%;
+}
+
+#prepa-num {
+    max-width: 100%;
+}
+
+#festnum {
+    max-width: 100%;
+}
