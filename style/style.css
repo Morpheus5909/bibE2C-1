@@ -107,8 +107,29 @@ nav {
 background-color: var(--couleur-fonce);
 color: var(--couleur-claire);
 padding: 5px;
-width: 20%;
+width: 15%;
 margin: 5px;
+<<<<<<< HEAD
+=======
+
+
+text-align: center;
+border-radius: 5px;
+
+}
+.nav-button:hover    {
+
+background-color: var(--couleur-midclaire)
+color var(--couleur-midfonce)
+border: solid var(--couleur-midclaire);
+
+
+}
+
+
+
+/*réglage de la partie main */
+>>>>>>> 452dee4 (bouton 2)
 
 
     text-align: center;
