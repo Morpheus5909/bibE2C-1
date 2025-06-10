@@ -38,8 +38,10 @@ body {
 
 /*réglage de la partie nav */
 #logo {
+
     width : 7%;
     display: block;
+
 }
 /*réglage de la partie header */
 header {
@@ -70,6 +72,7 @@ h2 {
 h3 {
     font-size: 1.5rem;
 }
+
 
 nav {
     position:fixed;
@@ -102,41 +105,21 @@ nav {
 
 
     font-size: 3rem;
+
   text-decoration: none;
   display: block;
 background-color: var(--couleur-fonce);
 color: var(--couleur-claire);
 padding: 5px;
+
+
 width: 15%;
 margin: 5px;
-<<<<<<< HEAD
-=======
+
 
 
 text-align: center;
 border-radius: 5px;
-
-}
-.nav-button:hover    {
-
-background-color: var(--couleur-midclaire)
-color var(--couleur-midfonce)
-border: solid var(--couleur-midclaire);
-
-
-}
-
-
-
-/*réglage de la partie main */
->>>>>>> 452dee4 (bouton 2)
-
-
-    text-align: center;
-    border-radius: 5px;
-    border: solid var(--couleur-claire) 2px;
-    transition: background-color 500ms, color 1000ms, border 1000ms;
-    
 
 }
 
