@@ -15,18 +15,18 @@
     padding : 0;
     box-sizing: border-box;
 
-    /*palette de couleur*/
+    /*palette de couleur
     --couleur-claire:#E6D6E8 ;
     --couleur-midclaire: #D1B3E0;
     --couleur-midfonce: #A76CBA;
     --couleur-fonce:#5B3E7D ;
-
-    /*palette alternative
+    */
+    /*palette alternative*/
     --couleur-claire:#dcc4a2 ;
     --couleur-midclaire: #b4442a;
     --couleur-midfonce: #513533;
     --couleur-fonce:#2f1b27 ;
-    */
+    
 
 }
 
@@ -58,6 +58,10 @@ header {
 h1 {
     font-family: "police-titre";
     font-size: 4rem;
+}
+
+h2 {
+    margin-bottom: 5px;
 }
 
 h3 {
@@ -107,6 +111,12 @@ nav {
 }
 
 /*réglage de la partie main et aside*/
+p {
+    font-size : 1.2rem;
+    margin-bottom: 5px;
+    /*text-align: justify;*/
+}
+
 
 #rangement {
     width : 100vw;
@@ -118,7 +128,7 @@ nav {
 }
 
 main {
-    width: 75%;
+    width: 65%;
 }
 
 article {
@@ -127,8 +137,29 @@ article {
     margin-bottom: 10px;
 }
 
+/*réglage article 1*/
+
+#text1-contenant {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+#text1 {
+    width : 60%;
+    padding-left: 10px;
+}
+
+iframe {
+    display: block;
+    width : 40%;
+    border-radius: 15px;
+}
+
 aside {
-    width : 20%;
+    width : 32%;
 }
 
 /*image et video */
@@ -139,12 +170,24 @@ aside {
 
 #lecture {
     max-width: 100%;
+    width : 40%;
+    float : right;
 }
 
 #prepa-num {
     max-width: 100%;
+    margin-top: 10px;
+
 }
 
 #festnum {
     max-width: 100%;
+}
+
+aside>article {
+    padding : 15px;
+    background-color: var(--couleur-fonce);
+    color: var(--couleur-claire);
+    border: solid var(--couleur-midclaire) 3px;
+    border-radius: 10px;
 }
