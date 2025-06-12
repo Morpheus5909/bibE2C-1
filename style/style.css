@@ -43,6 +43,8 @@ body {
 }
 /*réglage de la partie header */
 header {
+    position : relative;
+    top:10vmin;
     background:radial-gradient(circle at 25%, var(--couleur-midfonce),var(--couleur-fonce));
     color:var(--couleur-claire);
     height: 25vh;
@@ -52,6 +54,7 @@ header {
     flex-direction: column;
     justify-content:space-evenly;
     align-items:center;
+    
 
 }
 
@@ -69,11 +72,17 @@ h3 {
 }
 
 nav {
+    position:fixed;
+    height: 10vmin;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
     border-bottom: solid var(--couleur-fonce) 1px;
+
+    width : 100vw;
+    background-color: var(--couleur-claire);
+    z-index: 10;
 }
 
 #nav-bar {
@@ -101,6 +110,8 @@ nav {
     text-align: center;
     border-radius: 5px;
     border: solid var(--couleur-claire) 2px;
+    transition: background-color 500ms, color 1000ms, border 1000ms;
+    
 
 }
 
@@ -108,6 +119,7 @@ nav {
     background-color: var(--couleur-midclaire);
     color: var(--couleur-midfonce);
     border: solid var(--couleur-midfonce) 2px;
+    
 }
 
 /*réglage de la partie main et aside*/
@@ -119,6 +131,8 @@ p {
 
 
 #rangement {
+    position : relative;
+    top:10vmin;
     width : 100vw;
     display: flex;
     flex-direction: row;
@@ -135,6 +149,12 @@ article {
     box-shadow: var(--couleur-fonce) 2px 2px 5px 0;
     padding: 10px;
     margin-bottom: 10px;
+    transition: transform 1000ms;
+}
+
+article:hover {
+    transform: translate3d(2vh, 2vh, 0);
+    
 }
 
 /*réglage article 1*/
@@ -159,7 +179,11 @@ iframe {
 }
 
 aside {
+    position : fixed;
+    top : 25vmin;
     width : 32%;
+    right :20px;
+    
 }
 
 /*image et video */
@@ -190,4 +214,36 @@ aside>article {
     color: var(--couleur-claire);
     border: solid var(--couleur-midclaire) 3px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+/*design fou fou */
+
+
+.intertext {
+    width : 100%;
+    aspect-ratio: 1904/640;
+    background-image: url("../src/bib2.png");
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position-y: 10vh;
+
+}
+
+.it2 {
+    background-image: url("../src/bib1.png");
+
+}
+
+
+
+h4 {
+    font-size: 6rem;
+    font-family: "police-titre";
+    color: var(--couleur-claire);
+    margin-right: 30px;
 }
