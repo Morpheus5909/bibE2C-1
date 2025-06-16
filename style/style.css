@@ -45,8 +45,10 @@ body {
 }
 /*réglage de la partie header */
 header {
-    position : relative;
-    top:10vmin;
+
+position: relative;
+top: 10vmin;
+
     background:radial-gradient(circle at 25%, var(--couleur-midfonce),var(--couleur-fonce));
     color:var(--couleur-claire);
     height: 25vh;
@@ -62,16 +64,25 @@ header {
 
 h1 {
     font-family: "police-titre";
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
-h2 {
-    margin-bottom: 5px;
+
+h2{
+margin-bottom: 5px;
+font-size: 1.5rem;
+
+
 }
+
+
+
 
 h3 {
     font-size: 1.5rem;
 }
+
+
 
 
 nav {
@@ -83,9 +94,11 @@ nav {
     align-items:center;
     border-bottom: solid var(--couleur-fonce) 1px;
 
-    width : 100vw;
+
+    width: 100vw;
     background-color: var(--couleur-claire);
     z-index: 10;
+
 }
 
 #nav-bar {
@@ -120,8 +133,11 @@ margin: 5px;
 
 text-align: center;
 border-radius: 5px;
+border:solid var(--couleur-claire ) 2px;
+transition: background-color 500ms, color 1000ms, border 1000ms ;
 
 }
+
 
 .nav-button:hover {
     background-color: var(--couleur-midclaire);
@@ -129,6 +145,7 @@ border-radius: 5px;
     border: solid var(--couleur-midfonce) 2px;
     
 }
+
 
 /*réglage de la partie main et aside*/
 p {
@@ -249,9 +266,142 @@ aside>article {
 
 
 
-h4 {
-    font-size: 6rem;
-    font-family: "police-titre";
-    color: var(--couleur-claire);
-    margin-right: 30px;
+
+/*réglage de la partie main et aside*/
+
+#rangement {
+        position: relative;
+        top: 10vmin;
+
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        padding: 20px;
+
+}
+
+
+main{
+width: 65%;
+}
+
+article{
+     box-shadow: var(--couleur-fonce)2px 2px 5px 0;
+    margin-bottom: 10px;
+     padding: 10px;
+     transition: transform 1000ms;
+}
+article:hover {
+transform: translate3d(2vh, 2vh, 0);
+
+
+
+}
+
+
+/*reglage texte 1 */
+
+#texte1{
+
+width: 60%;
+padding-left: 20px;
+}
+
+#contenant{
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+}
+iframe{
+
+display: block;
+width: 40%;
+border-radius: 15px;
+}
+
+
+
+
+
+
+aside{
+position: fixed;
+top: 15vmin;
+right: 0;
+
+
+width: 32%;
+}
+
+
+
+
+#video-youtube{
+max-width: 100%;
+}
+
+#sol{
+max-width: 100%;
+width: 40%;
+float: right;
+
+}
+#groupe{
+    width: 100%;
+            margin-top: 10px;
+}
+
+#festnum{
+
+width: 100%;
+}
+
+
+p{
+
+font-size: 1.5rem;
+
+
+}
+
+
+aside>article  {
+        padding: 15px;
+        background-color: var(--couleur-fonce);
+        color: var(--couleur-claire);
+        border: solid var(--couleur-midclaire)5px;
+        border-radius: 10px;
+}
+
+/* designe fou fou */
+
+.intertexte{
+
+
+width: 100%;
+
+background-image: url(../src/bib2.png);
+background-repeat: no-repeat;
+background-size: 100%;
+aspect-ratio: 1904/640;
+background-attachment: fixed;
+background-position-y:  25vh;
+
+display: flex;
+flex-direction: row;
+justify-content: end;
+align-items: center;
+
+}
+
+h4{
+
+font-size: 4rem;
+font-family: "police-titre";
+color: var(--couleur-claire);
+margin-right: 30px;
 }
