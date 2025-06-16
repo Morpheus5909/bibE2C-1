@@ -215,7 +215,7 @@ aside>article {
     border: solid var(--couleur-midclaire) 3px;
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: end;
     align-items: center;
 }
