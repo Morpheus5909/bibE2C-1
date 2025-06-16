@@ -1,5 +1,5 @@
-let targetNumber = 75;
-
+let targetNumber = Math.floor(Math.random()*100)+1;
+console.log(targetNumber);
 let userNumber = prompt('Devinez un nombre entre 1 et 100 :');
 
 while(userNumber != targetNumber) {
